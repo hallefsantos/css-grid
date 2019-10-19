@@ -2,8 +2,12 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 20vh 70vh 10vh;
-    grid-gap: 20px;
+    grid-gap: 30px;
     grid-template-areas:    "header header"
                             "main aside"
                             "footer footer";
+}
+
+.teste {
+    background-color: red;
 }
